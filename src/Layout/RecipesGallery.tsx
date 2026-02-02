@@ -1,7 +1,7 @@
 import Button from '../components/Button';
 import RecipeCard from '../components/RecipeCard';
 import axios from 'axios';
-import { useState } from 'react';
+import { useState, useEffect, use } from 'react';
 
 interface Meals{
   idMeal: string;
